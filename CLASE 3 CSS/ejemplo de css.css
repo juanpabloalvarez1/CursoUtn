@@ -1,0 +1,40 @@
+h1{
+
+    color: red;/* COMENTARIO EN CSS ---- COLOR DA COLOR EN ESTE CASO A H1 */
+    font-family: Arial;   /* COMENTARIO EN CSS ---- FONT-FAMILY DA UN TIPO DE LETRA EN ESTE CASO A H1 */
+    background-color: aqua; /* COMENTARIO EN CSS ---- COLOR DA COLOR AL FONDO EN ESTE CASO A H1 */
+    text-align: center; /* COMENTARIO EN CSS ---- NOS PERMITE CENTRAR NUESTRO TEXTO EN ESTE CASO A H1 */
+
+}
+
+H2{
+
+    color: rgb(14, 14, 208); /* SI HACEMOS CLICK EN EL CUADRADITO AL LADO DEL COLOR PODEMOS CAMBIAR SU TONO */
+    font-size: 25px; /* FONT SIZE LE PODEMOS MODIFICAR EL TAMANO DE LA LETRAS DEN ESTE CASO DE LOS TITULOS DE H2*/
+    text-transform: lowercase; /* NOS SIRVE PARA CAMBIAR EL ESTILO DEL TEXTO SI ES MAYUSCULA MINUSCULA ETC */
+}
+
+p{
+    color: rgb(15, 225, 15);
+    background-color: black;
+    line-height: 30px;/*EL LINE HEIGHT ES LA SEPARACION ENTRE PARRAFOS*/
+}
+
+/*LO QUE HICE ANTES ES ALGO GENERAL SI QUIERO POR EJEMPLO MODIFICAR COSAS EN CADA PARRAFO: EN EL HTML A UNO DE LOS P LE AGREGO CLASS
+Y UNA PALABRA QUE NO SEA RESERVADA ---  LUEGO EN EL CSS HAGO .LA PALABRA QUE PUSE EN CLASS Y LE PONGO LOS ATRIBUTOS 
+PARA MARCAR UN PAR DE PALABRAS Y NO TODO EL PARRAFO USAMOS "SPAN" Y DENTRO LE MONEMOS EL NOMBRE DE CLASS*/
+
+.destacado{
+    color: orange;
+    font-weight: bold;
+
+}
+
+#texto{
+
+    width: 200px; /*separacion a lo ancho*/
+    height: 300px; /*separacion a lo largo*/
+    background-color: blueviolet;
+    padding: 30px; /*separacion contra el marco de la pantalla*/
+    border: 20px solid black; /*hace un recuadro adicional como que remarca*/
+}

@@ -1,0 +1,142 @@
+#plantilla{
+
+    border: 10px solid black;
+    background-color: #dddddd;
+    margin: 0 auto;
+    
+
+}
+h1{
+
+background-color: red;
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px;
+display: inline-flex; 
+border: 5px solid black;
+
+}
+.encuadre{
+
+    width: 300px;
+	height: 300px;
+    padding: 20px;
+    
+    
+}
+
+#texto{
+
+    width: 238px; /*separacion a lo ancho*/
+    height: 150px; /*separacion a lo largo*/
+    background-color: blueviolet;
+    padding: 30px; /*separacion contra el marco de la pantalla*/
+    border: 10px solid black; /*hace un recuadro adicional como que remarca*/
+    text-align: center;
+    font-family: arial black;
+    margin: 0 auto; /*LO CENTRO*/
+    position: relative; /*cambio su posicion a relativa para poder moverlo en un eje x e y*/
+    bottom: 270px;
+    right: 185px;
+
+}
+#texto1{
+
+    width: 300px; /*separacion a lo ancho*/
+    height: 100px; /*separacion a lo largo*/
+    background-color: blueviolet;
+    padding: 30px; /*separacion contra el marco de la pantalla*/
+    border: 10px solid black; /*hace un recuadro adicional como que remarca*/
+    text-align: center;
+    font-family: arial black;
+    margin: 0 auto;
+    position: relative;
+    bottom: 320px;
+    right: 150px;
+    
+}
+.posicion1{
+   
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    display: inline-flex;
+    position: relative;
+    left: 385px;
+    bottom: 300px;
+    border: 5px solid black;
+}
+.posicion2{
+
+    background-color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 21px;
+    display: inline-flex;
+    position: relative;
+    left: 60px;
+    bottom: 250px;
+    border: 5px solid black;
+
+}
+.posicion3{
+    background-color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    display: inline-flex;
+    border: 5px solid black;
+    position: relative;
+    bottom: 552px;
+    left:718px;
+}
+#texto2{
+
+    width: 390px; /*separacion a lo ancho*/
+    height: 150px; /*separacion a lo largo*/
+    background-color: blueviolet;
+    padding: 30px; /*separacion contra el marco de la pantalla*/
+    border: 10px solid black; /*hace un recuadro adicional como que remarca*/
+    text-align: center;
+    font-family: arial black;
+    margin: 0 auto; /*LO CENTRO*/
+    position: relative; /*cambio su posicion a relativa para poder moverlo en un eje x e y*/
+    bottom: 570px;
+    left: 230px;
+
+}
+.posicion4{
+
+    background-color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    border: 5px solid black;
+    display: inline-flex;
+    position: relative;
+    bottom: 570px;
+    left: 380px;
+
+}
+.posicion5{
+    background-color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    border: 5px solid black;
+    display: inline-flex;
+    position: relative;
+    bottom: 450px;
+}
+.posicion6{
+
+    background-color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 5px solid black;
+    position: relative;
+    bottom: 500px;
+
+}
+#texto3{
+    text-align: center;
+    background-color:blueviolet;
+    border: 7px solid black;
+    position: relative;
+    bottom: 520px;
+}
