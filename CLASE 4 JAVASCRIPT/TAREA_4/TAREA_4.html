@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA 4</title>
+</head>
+<body>
+    <script>
+
+// Ejercicio 1
+
+// Utilizando lo aprendido escribir el código necesario para que dada una distancia determine el medio de transporte apropiado de acuerdo a las siguientes reglas:
+
+// 0 a 1000 metros = pie
+// 1000 a 10000 metros = bicicleta
+// 10000 a 30000 metros = colectivo
+// 30000 a 100000 metros = auto
+// +100000 = avión
+
+  let valor1 = parseFloat(prompt('ingresar un valor entre 0 y 100000'))
+
+  if(valor1<=1000 && valor1>=0){
+    document.write(`la distancia que mejor se adapta al valor ingresado : ${valor1} es pie`)
+  }
+if(valor1>=1000 && valor1<=10000){
+    document.write(`la distancia que mejor se adapta al valor ingresado : ${valor1} es bicicleta`)
+}
+if(valor1>10000 && valor1<=30000){
+    document.write(`la distancia que mejor se adapta al valor ingresado : ${valor1} es colectivo`)
+}
+if(valor1>30000 && valor1<=100000){
+    document.write(`la distancia que mejor se adapta al valor ingresado : ${valor1} es auto`)
+}
+if(valor1>100000){
+    document.write(`la distancia que mejor se adapta al valor ingresado : ${valor1} es avion`)
+}
+else{
+    document.write(`el valor que ingreso : ${valor1} no es compatible ingrese un valor entre 0 y 100000 `)
+}
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //   let x = 1
+
+    //   while(x<=100){
+    //     document.write(` ${x} <br>`)
+    //     x++ // impreme todos los numeros iguales o menores a 100
+    //   }
+
+
+    // MAS COMPLEJO
+
+    let x = 1
+    const cuantos = 5
+    let suma = 0
+
+    while(x <= cuantos){ // cuantos quiere decir el tope en este caso el bucle se va a repetir 5veces y x es de donde comienza y de a cuanto va a ir preguntando en este caso 1
+        const valor = parseInt(prompt(`ingrese el valor ${x}  de ${cuantos}: `))
+        suma += valor
+        x++
+    }
+    document.write(`la suma de los valores es ${suma} <br/>`)
+
+    // el programa nos pide el ingreso de 5 numeros para despues sumarlos y mostrarnos el valor en la pantalla
+    </script>
+</body>
+</html>

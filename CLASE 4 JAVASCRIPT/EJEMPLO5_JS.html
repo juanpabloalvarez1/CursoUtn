@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const num1 = parseInt(prompt('ingrese un numero: '))
+        // const num2 = parseInt(prompt('ingrese un segundo numero: '))
+        // const num3 = parseInt(prompt('ingrese un tercer numero: '))
+
+        // if(num1 > num2 && num1 > num3){
+        //     console.log('el mayor es el numero: ' + num1)
+        // }
+        // else if(num2 > num3){
+        //     console.log('el mayor numero es: ' + num2)
+        
+        // }
+        // else{
+        //     console.log('el mayor numero es: ' + num3)
+        // }
+
+        mes = parseInt(prompt('ingrese un mes: '))
+
+        if(mes == 1 || mes == 2 || mes == 3){
+
+            document.write('corresponde al primer trimestre del ano')
+        }
+        else if(mes == 4 || mes == 5 || mes == 6){
+            document.write('corresponde al segundo trimestre del ano')
+        }
+        else if(mes == 7 || mes == 8 || mes == 9){
+            document.write('corresponde al tercer trimestre')
+        }
+        else{
+            document.write('corresponde al cuarto trimestre')
+        }
+
+    </script>
+</body>
+</html>

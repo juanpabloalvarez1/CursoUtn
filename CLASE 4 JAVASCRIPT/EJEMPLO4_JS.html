@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const frutas = ['manzana', 'banana', 'pera', 'sandia'] // array
+        console.log(frutas.length) 
+        console.log(frutas)
+
+        const primero = frutas[0] //recorre el array de atras para adelante
+        console.log(primero)
+
+        const ultimo = frutas[frutas.length - 2] // recorre el array de adelante para atras
+        console.log(ultimo)
+
+        let seleccionado = 1 // let es una palabra reservada para declarar variables pero nos permite reasignar un valor
+        console.log(frutas[seleccionado]) // es lo mismo que la linea 16 y 17
+
+        seleccionado = 2
+        console.log(frutas[seleccionado])
+
+        // RECORRER UN ARRAY USANDO FOR
+
+        for(let i = 0;i < frutas.length; i++ ){
+            console.log('tenemos: '+ frutas[i])
+        }
+// let = ponemos desde donde queremos que empiece a recorrer e i++ es para que vaya recorriendo para adelante
+
+
+
+    </script>
+</body>
+</html>
