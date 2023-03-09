@@ -1,0 +1,23 @@
+.boton {
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;   /*cambia el cursor en vez de ver la flechita se pone la manito */
+    
+}
+
+.alternar {
+    background: lightblue;
+    margin: auto;
+}
+
+.alternar.activo {
+    background: blue;
+    color: white;
+    margin: auto;
+}
+      
