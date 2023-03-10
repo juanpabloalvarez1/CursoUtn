@@ -14,10 +14,10 @@
 
     <button id="boton2" class="cuadradoAzul"></button>
 
-    <button id="boton3" class="cuadrado"></button>
+    <button id="boton3" class="cuadrado"></button> <!-- el ID = BOTON ESTA LLAMANDO A LA FUNCION QUE ARMAMOS EN EL SCRIPT LO QUE HACE QUE CAMBIE DE COLOR ====  MIENTRAS QUE EL CLASS TRAE NUESTRO CSS-->
       
     <script>
-    	 // boton
+    	 // CADA FUNCION ASIGNA UN COLOR DISTINTO AL BACKGROUND AL PRESIONAR CADA BOTON
         const boton = document.getElementById('boton');
         boton.addEventListener('click' , function() {
             document.body.style.background = 'green'
@@ -33,7 +33,6 @@
         boton3.addEventListener('click', function(){
             document.body.style.background = 'red'
         });
-
 
 
     </script>

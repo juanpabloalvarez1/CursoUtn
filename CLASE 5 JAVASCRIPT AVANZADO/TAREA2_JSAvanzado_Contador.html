@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<H1>FORMULARIO</H1>
+
+<textarea name="" id="caracter" cols="30" rows="10"></textarea> 
+<div>caracter: <span id="contador"></span></div>
+
+
+<script>
+
+    var caracter = document.getElementById('caracter'); // guardamos e indicamos la variable
+    var contador = document.getElementById('contador');
+
+    caracter.addEventListener('keyup', function(){
+        // el evento KEYUP quieren decir que interpreta cuando yo clickeo una tecla las veces que lo hago por decirlo asi
+        contador.innerText = caracter.value.length; // cuenta los caracteres que ingrese, .length nos muestra en formato de numero
+    })
+
+
+</script>
+
+
+   
+
+
+
+
+
+
+
+</body>
+</html>
