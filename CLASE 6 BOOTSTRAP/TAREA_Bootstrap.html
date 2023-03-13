@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <!--TEXTO MOVIL-->
+    <marquee class="fw-bold" style="background-color: brown;">MI PAGINA DE PRUEBA BOOTSTRAP</marquee>
+
+    <!--DEZPLEGABLE CON INFORMACION DENTRO-->
+
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <h5 class="text-white h4">BIENVENIDO A LA PAGINA OFICIAL DE JUAN </h5>
+
+            <span class="text-muted">ANTES DE EMPEZAR LES DEJAMOS ALGUNOS TIPS QUE LES PUEDEN SERVIR.</span>
+
+            <!--PALABRAS PARA PINCHAR EN ELLAS Y QUE NOS LLEVE A OTRA PAGINA-->
+            <p class="muted"><a href="https://getbootstrap.com/docs/5.2/components/navbar/" data-bs-toggle="tooltip"
+                    data-bs-title="Default tooltip">COMO ARMAR UNA TOOLBAR</a><a style="position: relative; left: 40px;"
+                    href="https://getbootstrap.com/docs/5.2/customize/color/" data-bs-toggle="tooltip"
+                    data-bs-title="Another tooltip">COMO PONER COLOR AL SITIO</a><a
+                    style="position: relative; left: 80px;" href="https://getbootstrap.com/docs/5.2/layout/columns/"
+                    data-bs-toggle="tooltip" data-bs-title="Another one here too">ARMADO DE COLUMNAS</a><a
+                    style="position: relative; left: 120px;"
+                    href="https://getbootstrap.com/docs/5.2/content/typography/" data-bs-toggle="tooltip"
+                    data-bs-title="The last tip!">TIPOGRAFIA</a>
+            </p>
+
+
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" style="background-color: brown;"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!--FIN DEL DEZPLEGABLE-->
+
+    <!--BARRA DE NAVEGACION MAS ITEMS QUE HACEN COSAS-->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid" style="background-color: brown; border: solid black;">
+            <a class="navbar-brand" style="border: 5px solid black;" href="https://es.wikipedia.org/wiki/Juan">ORIGEN
+                DEL NOMBRE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="border: 5px solid black;" aria-current="page" href="#">DATOS
+                            CURIOSOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="border: 5px solid black; position: relative; left: 5px;"
+                            href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                            style="border: 5px solid black; position: relative; left: 10px;" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            VARIANTES DEL NOMBRE
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item">JUAN PABLO</a></li>
+                            <li><a class="dropdown-item">JUAN CARLOS</a></li>
+                            <li><a class="dropdown-item">JUAN PEDRO</a></li>
+                            <li><a class="dropdown-item">JUAN MANUEL</a></li>
+                        </ul>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--FIN-->
+
+
+    <!--ORGANIZADOR DE INFORMACION + BOTONES + SOMBRAS = class="shadow-lg p-3 mb-5 bg-body rounded" -->
+    <div class="row">
+        <div class="col-4">
+            <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">JUAN PABLO II</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">JUAN PABLO I</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">JUAN PABLO DUARTE</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">JUAN PABLO MONTOYA</a>
+            </div>
+        </div>
+        <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                class="scrollspy-example" tabindex="0">
+                <h4 class="shadow-lg p-3 mb-5 bg-body rounded" id="list-item-1">JUAN PABLO II</h4>
+                <p class="border border-primary" class="shadow-sm p-3 mb-5 bg-body rounded">Era el menor de los tres hijos del matrimonio integrado por Karol Wojtyła y Emilia Kaczorowska. Su
+                    madre era una ferviente católica, y se las arregló para que su hijo naciera cerca de un templo, pues
+                    quería que lo primero que oyera su hijo fueran los «cánticos a Dios». Cuando Karol aún era muy
+                    pequeño, su madre le decía a otras mujeres: Verán que mi pequeño Karol será una gran persona. Su
+                    madre falleció en 1929, cuando él tenía nueve años. Su hermana Olga había muerto antes de que él
+                    naciera. Su hermano mayor Edmund, que era médico, murió en 1932 por contagio de una enfermedad
+                    cuando curó a un hombre de condición humilde. Junto con su padre, Karol se trasladó a Cracovia para
+                    iniciar sus estudios en la Universidad Jagellónica. Su padre, un suboficial del ejército polaco,
+                    murió en 1941 durante la ocupación de Polonia por la Alemania nazi.8​ Su padre siempre lo guio en el
+                    camino de la fe y el amor cristiano.
+
+                    Al terminar sus estudios de educación media, una época en la que destacó como consumado ajedrecista
+                    (llegando a proclamarse vencedor en varios campeonatos estudiantiles), se matriculó en la
+                    Universidad Jagellónica de Cracovia y también en una escuela de teatro. Cuando las fuerzas de
+                    alemanas cerraron la Universidad, en septiembre de 1939, el joven Karol tuvo que trabajar en una
+                    cantera y luego en una fábrica química (Solvay), para ganarse la vida y evitar que lo deportaran a
+                    Alemania. Fichado por la Gestapo, se refugió en una buhardilla de Cracovia. En esa época se unió al
+                    grupo del célebre actor polaco Mieczysław Kotlarczyk, creador del teatro Rapsódico, con el cual
+                    interpretó papeles de contenido patriótico.
+
+                    Durante la ocupación alemana de Polonia, cultivó especialmente la cultura, el teatro y las
+                    amistades, en el contexto del grupo Unia, formado por jóvenes católicos que pretendían resistir,
+                    tanto de forma pacífica (así Wojtyła) como de acción (ayudando directamente a los judíos o usando la
+                    violencia), a la ocupación nazi.9​ Posteriormente, su situación se complicó y debió refugiarse en
+                    los subterráneos del arzobispado de Cracovia.
+
+                    Importante para su crecimiento espiritual fue la persona de un sastre, Jan Tyranowski, quien le dio
+                    a leer a San Juan de la Cruz. Se conocieron en 1940; Tyranowski reunía a un grupo de jóvenes.
+
+                    Uno de los sitios donde más le gustaba ir a rezar y descansar era Kalwaria Zebrzydowska, donde
+                    habían trabajado su abuelo y bisabuelo como guías de los peregrinos que iban allí</p>
+                <h4 class="shadow-lg p-3 mb-5 bg-body rounded" id="list-item-2">JUAN PABLO I</h4>
+                <p class="border border-primary" class="shadow-sm p-3 mb-5 bg-body rounded">Juan Pablo I (en latín, Ioannes Paulus PP. I), de nombre secular Albino Luciani (Canale d'Agordo, 17
+                    de octubre de 1912-Ciudad del Vaticano, 28 de septiembre de 1978), fue el 263.er papa de la Iglesia
+                    católica y soberano de la Ciudad del Vaticano desde el 26 de agosto de 1978 hasta su muerte,
+                    ocurrida 33 días después. Su pontificado fue uno de los más breves de la historia, dando lugar al
+                    más reciente año de los tres papas. Fue el primer papa nacido en el siglo xx y también el último en
+                    morir en dicho siglo. Asimismo es el último pontífice italiano hasta la fecha, y el último de una
+                    larga sucesión ininterrumpida de papas italianos a lo largo de más de cuatro siglos, iniciada con
+                    Clemente VII en 1523.
+
+                    Antes de celebrarse el cónclave que lo eligió, expresó su deseo de no ser elegido, confesando a
+                    aquellos más cercanos a él que renunciaría al papado si era elegido; pero cuando fue elegido por los
+                    cardenales, se sintió obligado a aceptar.2​ Fue el primer papa que eligió un nombre compuesto, "Juan
+                    Pablo", en honor a sus dos predecesores inmediatos, Juan XXIII y Pablo VI. Explicó que quiso
+                    homenajear a ambos al sentirse agradecido y en deuda con ellos por haberle nombrado obispo y
+                    cardenal, respectivamente. También fue el primer papa en utilizar el número "I" en su nombre,
+                    llamándose "Juan Pablo Primero".
+
+                    Sus dos sucesores, Juan Pablo II y Benedicto XVI, han recordado su actitud cercana, amable y
+                    cariñosa en múltiples ocasiones. En Italia es recordado con los apelativos de "Il Papa del Sorriso"
+                    (El papa de la sonrisa)3​ e "Il Sorriso di Dio" (La sonrisa de Dios).4​ La revista Time y otras
+                    publicaciones se refirieron a él como "The September Pope" (El papa de septiembre).5​
+
+                    Fue declarado Siervo de Dios, el primer paso en el camino a la santidad, el 23 de noviembre de 2003,
+                    por Juan Pablo II. El papa Francisco confirmó su virtud heroica el 8 de noviembre de 2017 y le
+                    proclamó Venerable. En octubre de 2021 se anunció que sería beatificado, tras confirmarse la
+                    atribución a su intercesión en la curación milagrosa de una niña de Argentina.6​7​8​ La
+                    beatificación tuvo lugar el 4 de septiembre de 2022 en la plaza</p>
+                <h4 class="shadow-lg p-3 mb-5 bg-body rounded" id="list-item-3">JUAN PABLO DUARTE</h4>
+                <p class="border border-primary" class="shadow-sm p-3 mb-5 bg-body rounded">Nació el 26 de enero de 1813 en la Ciudad de Santo Domingo durante el período conocido en la
+                    historiografía dominicana como la España Boba, en el seno de una familia de clase media-alta que se
+                    dedicaba al comercio de artículos de marina y ferretería en la zona portuaria de la capital.1​ En
+                    sus memorias, el trinitario José María Serra de Castro le describió como un hombre de tez rosácea,
+                    labios finos, ojos azules, y cabellera rubia que contrastaba con su negro y espeso bigote.4​ Hijo
+                    legítimo de Juan José Duarte Rodríguez (próspero comerciante andaluz procedente de la ciudad de
+                    Vejer de la Frontera, Cádiz) y Manuela Díez Jiménez, (natural de la villa de Santa Cruz del Seybo,
+                    hija del colono castellano Antonio Díez Baillo, nacido en Osorno y de la criolla Rufina Jiménez
+                    Benítez). Juan Pablo fue el cuarto de once hermanos, siendo los más conocidos Vicente Celestino,
+                    comerciante de madera y Rosa Protomártir, quien se desempeñó como periodista y maestra. Ambos
+                    tuvieron una activa participación en la causa independentista de su hermano.
+
+                    En 1801, los padres de Juan emigraron desde Santo Domingo cuando estaba ocupada por los franceses a
+                    la ciudad de Mayagüez en la Capitanía General de Puerto Rico, evadiendo la imposición del Estado
+                    francés en el lado oriental de la isla hecha por el general Toussaint Louverture, gobernador de la
+                    Colonia de Saint-Domingue (actual Haití), una colonia francesa situada en el tercio occidental de la
+                    isla Española.2​ En ese momento, la República Francesa y Saint-Domingue estaban pasando por
+                    exhaustivos movimientos sociales, a saber, las revoluciones francesa y haitiana.</p>
+                <h4 class="shadow-lg p-3 mb-5 bg-body rounded" id="list-item-4">JUAN PABLO MONTOYA</h4>
+                <h6 class="shadow-lg p-3 mb-5 bg-body rounded" id="list-item-4">ESTAS INTERESADO EN SEGUIR RECIBIENDO INFORMACION SOBRE LA PAGINA??</h6>
+                <p class="border border-primary" class="shadow-sm p-3 mb-5 bg-body rounded">Juan Pablo Montoya Roldán, ODB (Bogotá, Colombia; 20 de septiembre de 1975)1​ es un piloto de
+                    automovilismo colombiano. Fue campeón de la serie CART2​ en 1999 y consiguió diez victorias en dos
+                    temporadas con Ganassi, tras lo cual pasó a correr en Fórmula 1. Fue tercero en 2002 y 2003 con
+                    Williams, y cuarto en 2005 con McLaren, acumulando un total de siete victorias y 30 podios.3​
+
+                    Juan Pablo Montoya ha ganado 2 de las 3 carreras que conforman la triple corona, solamente le falta
+                    las 24 Horas de Le Mans. Tiene experiencia en ese tipo de carreras de resistencia,4​ habiendo ganado
+                    las 24 Horas de Daytona en 2007, 2008 y 2013. Por otro lado, Montoya volvió a Estados Unidos en 2006
+                    a disputar la Copa NASCAR para Ganassi, donde fue el primer extranjero en clasificar al Chase for
+                    the Cup en 2009. También ganó las 24 Horas de Daytona de 2007, 2008 y 2013, y llegó segundo en 2009
+                    y 2011, también para Ganassi. Desde 2014 compite en IndyCar Series para el equipo Penske con el cual
+                    obtuvo el subcampeonato en 2015 y el cuarto lugar en 2014; en dicha categoría ganó las 500 Millas de
+                    Indianápolis de 2000 y 2015. Pasó a IMSA con el equipo Penske, corriendo la última carrera de 2017
+                    logrando la pole position y llegando al podio en el tercer lugar, teniendo contrato para toda la
+                    temporada 2018 y siendo campeón de esta serie en el año 2019.</p>
+            </div>
+        </div>
+    </div>
+
+<!--FIN-->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+// todo eso que esta dentro de script tambien salio de bootstrap es necesario poner tanto el link abajo del title en head como dentro de body el script
+
+
+        </script>
+
+
+
+</body>
+
+</html>
