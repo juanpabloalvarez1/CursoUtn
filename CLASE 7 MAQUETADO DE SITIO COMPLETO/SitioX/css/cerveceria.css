@@ -1,0 +1,270 @@
+footer{
+    background-color: red;
+
+}
+
+h1, h2 {
+    font-family: 'alfa slab one', cursive;
+
+}
+
+.hero{
+    background: url(../img/download.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: white;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+.heroUno{
+    background: url(../img/12beersofchristmas_1200x600-1.jpg);
+    background-size: cover;
+    /* height: 50vh;
+    min-height: 600px; */
+    color: white;
+    position: relative;
+    bottom: 220px;
+    
+}
+
+.heroDos{
+    background: url(../img/el-mundial-de-la-birra___CG1Txch_t_2000x1500__1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh; /*agranda mas la imagen*/
+    min-height: 600px;
+    color: black;
+    position: relative;
+    bottom: 400px;
+    
+    
+}
+
+
+.titulo{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    -webkit-text-stroke: 1px yellow;
+    color: black;
+    text-align: center;
+}
+
+.texto{
+    position: relative;
+    top: 100px;
+    right: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-align: center;
+}
+
+.textoUno{
+    position: relative;
+    top: 200px;
+    right: 140px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+.textoDos{
+    position: relative;
+    bottom: 400px;
+    left: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-align: center;
+}
+
+.textoTres{
+    position: relative;
+    bottom: 350px;
+    left: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-align: center;
+}
+
+
+.textoCuatro{
+    position: relative;
+    bottom: 1000px;
+    left: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-align: center;
+}
+
+.textoCinco{
+    position: relative;
+    bottom: 980px;
+    left: 870px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-align: center;
+}
+
+.boton{
+    background-color: yellow;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    position: relative;
+    top: 120px;
+    right: 30px;
+    
+
+}
+
+.botonUno{
+    background-color: yellow;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    position: relative;
+    top: 240px;
+    right: 130px;
+}
+
+.botonDos{
+    background-color: yellow;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    position: relative;
+    bottom: 400px;
+    left: 410px;
+}
+
+.botonTres{
+    background-color: yellow;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    position: relative;
+    bottom: 350px;
+    left: 410px;
+}
+
+.botonCuatro{
+    background-color: yellow;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    position: relative;
+    bottom: 1000px;
+    left: 910px;
+}
+
+.botonCinco{
+    background-color: yellow;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    position: relative;
+    bottom: 970px;
+    left: 880px;
+}
+
+.lista-novedades{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-novedades li{
+    margin: 4px 0;
+    position: relative;
+    right: 300px;
+    
+}
+
+.lista-novedades li a{
+    background-color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: blue;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-novedades li a:hover{
+    color: red;
+    background-color: black;
+}
+
+.lista-novedades li a img{
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+
+}
+
+.lista-novedades li a:hover img{
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+
+}
+
+.testimonios{
+    background-color: grey;
+    padding-bottom: 4rem !important;
+    position: relative;
+    left: 1300px;
+    bottom: 380px;
+}
+
+.testimonio{
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+.letra{
+    color: black;
+}
+
+section{
+    display: flex;
+    width: 1000px;
+    height: 430px;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1; /*ocupa el espacio que pueda*/
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease; /*transcion para la animacion*/
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.contenedor{
+    background: url(../img/Fondo_Negro_5.jpg);
+    background-size: cover;
+    height: 100vh; /*agranda mas la imagen*/
+    min-height: 600px;
+    height:96px;
+    position: relative;
+    bottom: 425px;
+    
+    
+    
+}
