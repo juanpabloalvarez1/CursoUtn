@@ -268,3 +268,20 @@ section img:hover{
     
     
 }
+
+.staff{
+    background: blue;
+}
+
+.mapa iframe{
+    width: 100%;
+    aspect-ratio: 1.2;  /*El aspect-ratio: es la relación de aspecto, es la proporción que tiene una imagen entre su ancho y su alto. */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.scroll_selection{
+    scroll-margin-top: 60px;
+}

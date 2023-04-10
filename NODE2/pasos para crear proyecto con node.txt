@@ -1,0 +1,19 @@
+carpeta para modificar lo del sitio en localhost3000
+
+routes -- index.js
+
+para subir un sitio y descargar las librerias necesarias
+
+npx express-generator --view=hbs
+
+genera la estructura de carpetas
+
+npm i nodemon 
+ +
+package.json en start cambiar node por nodemon 
+
+nos permite reflejar los cambios en el servidor 
+
+por ultimo: npm start 
+
+corre el portal
